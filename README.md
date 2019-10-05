@@ -12,7 +12,7 @@
 ```SQL
 CREATE DATABASE db_name;
 ```
-note that there is a semicolon and it is required for SQL commands
+    note that there is a semicolon and it is required for SQL commands
 
 ### Optional
 1.\l will list all databases and can be used to confirm database was created
