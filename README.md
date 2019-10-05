@@ -15,7 +15,7 @@ CREATE DATABASE db_name;
     note that there is a semicolon and it is required for SQL commands
 
 ### Optional
-1.\l will list all databases and can be used to confirm database was created
+    1. \l will list all databases and can be used to confirm database was created
 ## How to create a table
 ## How to get everything from a single table
 ## How to get one thing from a single table with a "where" clause
