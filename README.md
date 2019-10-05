@@ -23,11 +23,11 @@ CREATE DATABASE db_name;
 ```SQL
 CREATE TABLE table_name (column_name data_type, id bigint, name varchar)
 ```
-    ###Example
-    -Create a table with an id column and a data type of bigint set to not be null and primary key:
-    ```SQL
-    CREATE TABLE table_name (id bigint NOT NULL PRIMARY KEY)
-    ```
+  ### Example
+Create a table with an id column and a data type of bigint set to not be null and primary key:
+  ```SQL
+  CREATE TABLE table_name (id bigint NOT NULL PRIMARY KEY)
+  ```
 2. Run \d to list all tables in the database
 ## How to get everything from a single table
 ## How to get one thing from a single table with a "where" clause
