@@ -24,7 +24,7 @@ CREATE DATABASE db_name;
 CREATE TABLE table_name (column_name data_type, id bigint, name varchar)
 ```
   ### Example
-Create a table with an id column and a data type of bigint set to not be null and primary key:
+- Create a table with an id column and a data type of bigint set to not be null and primary key:
   ```SQL
   CREATE TABLE table_name (id bigint NOT NULL PRIMARY KEY)
   ```
