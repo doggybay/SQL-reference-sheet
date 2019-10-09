@@ -19,7 +19,7 @@ CREATE DATABASE db_name;
 ## How to connect to a database
     Run \c db_name to connect to a database
 ## How to create a table
-1. Using psql CLI run:
+1. From psql CLI run:
 ```SQL
 CREATE TABLE table_name (column_name data_type, id bigint, name varchar);
 ```
@@ -39,6 +39,16 @@ DROP TABLE table_name;
 SELECT * FROM table_name;
 ```
 ## How to get one thing from a single table with a "where" clause
+- From psql CLI run:
+```SQL
+SELECT * FROM table_name WHERE column_name = name_of_column;
+```
 ## How to add something to a table
+- From psql CLI run:
+```SQL
+INSERT INTO table_name VALUES (col 1, col 2, col 3);
+```
+### Note:
+- Values in parentheses will correspond to the columns that your trying to add data to
 ## How to edit something inside of a table
 ## How to remove something from a table
