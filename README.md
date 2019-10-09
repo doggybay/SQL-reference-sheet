@@ -34,21 +34,35 @@ CREATE TABLE table_name (column_name data_type, id bigint, name varchar);
 DROP TABLE table_name;
 ```
 ## How to get everything from a single table
-- From psql CLI run:
+- Using psql CLI run:
 ```SQL
 SELECT * FROM table_name;
 ```
 ## How to get one thing from a single table with a "where" clause
-- From psql CLI run:
+- Using psql CLI run:
 ```SQL
 SELECT * FROM table_name WHERE column_name = name_of_column;
 ```
 ## How to add something to a table
-- From psql CLI run:
+- Using psql CLI run:
 ```SQL
 INSERT INTO table_name VALUES (col 1, col 2, col 3);
 ```
 ### Note:
 - Values in parentheses will correspond to the columns that your trying to add data to
 ## How to edit something inside of a table
+- Using psql CLI run:
+```SQL
+UPDATE table_name SET column_name = 'new data value' WHERE column_name = 'current data value name';
+```
 ## How to remove something from a table
+### Deleting the whole table
+- Using psql CLI run:
+```SQL
+DELETE FROM table_name;
+```
+### Deleting a row
+- Using psql CLI run:
+```SQL
+DELETE FROM table_name WHERE column_name = 'data value name';
+```
